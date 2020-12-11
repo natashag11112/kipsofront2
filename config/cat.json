@@ -1,0 +1,26 @@
+[
+    {
+        "_id": "5fc8b799bdfc311b3c86d653",
+        "slug": "Communication",
+        "text": [
+            {
+                "status": false,
+                "_id": "5fc8bbdc6b7bae1128b5c5a6",
+                "lan": "EN",
+                "name": "Communication EN"
+            }
+        ]
+    },
+    {
+        "_id": "5fc8b7a4bdfc311b3c86d654",
+        "slug": "Text Message",
+        "text": [
+            {
+                "status": false,
+                "_id": "5fc8bb706b7bae1128b5c5a3",
+                "lan": "EN",
+                "name": "Text Message EN"
+            }
+        ]
+    }
+]
