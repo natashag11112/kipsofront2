@@ -5,6 +5,8 @@ import Link from 'next/link'
 import CallToActionOne from "../components/CallToActionOne";
 import CourseCategoryNatalie from "../components/CourseCategoryNatalie";
 import CourseCategoryNatalieImproved from "../components/CourseCategoryNatalieImproved";
+import CourseCategoryNatalieImprovedRedux from "../components/CourseCategoryNatalieImprovedRedux";
+
 import {useDispatch, useSelector} from 'react-redux'
 // import {fetchposts} from '../store/actions/postAction';
 import {fetchcategories} from '../store/actions/categoryAction';
@@ -33,6 +35,7 @@ export default function Nat () {
    <div>
    {/* <CourseCategoryNatalie/> */}
    <CourseCategoryNatalieImproved/>
+   {/* <CourseCategoryNatalieImprovedRedux/> */}
        <ul>
             <li><Link href="/"><a>Home</a></Link></li>
             <li><Link href="/about"><a>About</a></Link></li>
